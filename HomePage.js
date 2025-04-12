@@ -3,6 +3,13 @@ import React from "react";
 export default function HomePage() {
   return (
     <main className="min-h-screen bg-gray-100 text-gray-900 p-6">
+    <div className="text-center mb-6">
+  <img
+    src="/logo.png"
+    alt="Vents & Capital Logo"
+    style={{ width: "120px", margin: "0 auto" }}
+  />
+</div>
       <section className="text-center py-10">
         <h1 className="text-4xl font-bold mb-2">Life Support by Day, Capital Gains by Night</h1>
         <p className="text-lg italic text-gray-600">Stabilize, then strategize.</p>
